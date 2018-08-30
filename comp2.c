@@ -2,9 +2,9 @@
 int comp(int a,int b)
 {
     if(a>b)
-    printf("a is greater than b\n");
+    printf("%d is greater than %d\n",a,b);
     else if(b<a)
-    printf("b is greater than a\n");
+    printf("%d is greater than %d\n",b,a);
     else
     printf("Two numbers are equal\n");
 }
